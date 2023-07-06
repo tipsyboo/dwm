@@ -1,0 +1,12 @@
+My build of DWM.
+
+WM-specific hotkeys are hardcoded into DWM; SXHKD used for everything else.
+
+Super+Q			Quit
+Super+Shift+Q		Restart DWM (via xsession kill)
+Super+A			Dmenu
+Super+Enter		Terminal
+Super+Z			Scratchpad
+Super+D			Toggle horizontal/vertical
+Super+Shift+{H,L}	Adjust master/stack factor
+Super+Space		Zoom
