@@ -5,4 +5,4 @@ case "$BLOCK_BUTTON" in
     3) dunstify "button3" ;;
 esac
 
-echo "$(date +'%R   %A, %B %d')"
+echo "$(date +'%R   %A, %B %d') "
