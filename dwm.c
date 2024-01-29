@@ -1253,10 +1253,10 @@ propertynotify(XEvent *e)
 		}
 		if (ev->atom == XA_WM_NAME || ev->atom == netatom[NetWMName]) {
 			updatetitle(c);
-			/* disable window title
+			// disable window title
 			if (c == c->mon->sel)
 				drawbar(c->mon);
-			*/
+			//
 		}
 		if (ev->atom == netatom[NetWMWindowType])
 			updatewindowtype(c);

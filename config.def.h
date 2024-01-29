@@ -60,7 +60,7 @@ static const Layout layouts[] = {
 static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char scratchpadname[] = "scratchpad";
-static const char *scratchpadcmd[] = { "alacritty", "-T", scratchpadname, "--config-file", "/home/tipsy/.config/alacritty/alacritty.scratchpad.yml", NULL };
+static const char *scratchpadcmd[] = { "alacritty", "-T", scratchpadname, "--config-file", "/home/tipsy/.config/alacritty/alacritty.scratchpad.toml", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
